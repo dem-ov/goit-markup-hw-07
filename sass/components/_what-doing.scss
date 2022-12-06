@@ -1,0 +1,52 @@
+.what-doing {
+    padding-bottom: 94px;
+}
+
+.what-doing__header {
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--best-color3);
+    text-align: center;
+}
+
+.what-doing__list {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.what-doing__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-doing__item::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 70px;
+    bottom: 0%;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.what-doing__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    bottom: 27px;
+    color: #ffffff;
+    position: absolute;
+}
