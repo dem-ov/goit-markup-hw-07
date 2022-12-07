@@ -1,24 +1,23 @@
 .directions-block {
-    padding-bottom: 94px;
-    padding-top: 94px;
-    display: block;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  display: block;
 }
 
 .directions-list {
-    gap: 30px;
-    display: flex;
-    list-style-type: none;
-}
+  gap: 30px;
+  display: flex;
+  list-style-type: none;
 
-.directions-list__icon {
+  &__icon {
     padding: 25px 102px 25px 102px;
     width: 270px;
     height: 120px;
     background: #f5f4fa;
     border-radius: 4px;
-}
+  }
 
-.directions-list__header {
+  &__header {
     margin-top: 30px;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -29,9 +28,9 @@
     color: var(--best-color3);
     text-transform: uppercase;
     margin-bottom: 10px;
-}
+  }
 
-.directions-list__text {
+  &__text {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 1.71;
@@ -39,4 +38,5 @@
     text-align: left;
     color: var(--best-color4);
     width: 270px;
+  }
 }

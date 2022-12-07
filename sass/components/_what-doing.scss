@@ -1,8 +1,7 @@
 .what-doing {
-    padding-bottom: 94px;
-}
+  padding-bottom: 94px;
 
-.what-doing__header {
+  &__header {
     margin-bottom: 50px;
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -12,22 +11,22 @@
     text-align: center;
     color: var(--best-color3);
     text-align: center;
-}
+  }
 
-.what-doing__list {
+  &__list {
     display: flex;
     list-style-type: none;
     gap: 30px;
-}
+  }
 
-.what-doing__item {
+  &__item {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.what-doing__item::before {
+  &__item::before {
     display: inline-block;
     position: absolute;
     content: "";
@@ -35,9 +34,9 @@
     height: 70px;
     bottom: 0%;
     background-color: rgba(47, 48, 58, 0.8);
-}
+  }
 
-.what-doing__text {
+  &__text {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -49,4 +48,5 @@
     bottom: 27px;
     color: #ffffff;
     position: absolute;
+  }
 }
